@@ -13,9 +13,6 @@
             <h2 class="underline">Full Name</h2>
             <p class="text">Anele Sokwane</p>
 
-            <!-- VueTyper -->
-            <!-- <vue-typer text='Hello World! I was registered globally!'></vue-typer> -->
-
             <h2 class="underline">Date Of Birth</h2>
             <p class="text">06/04/2002</p>
 
