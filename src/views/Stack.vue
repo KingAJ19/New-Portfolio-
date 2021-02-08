@@ -76,7 +76,7 @@
 
 <script>
 export default {
-  name: "Skills",
+  name: "Stack",
   data () {
       return {
         slider: 81,

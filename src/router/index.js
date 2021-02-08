@@ -26,14 +26,9 @@ const routes = [
     component: () => import('../views/Contact.vue')
   },
   {
-    path: '/skills',
-    name: 'Skills',
-    component: () => import('../views/Skills.vue')
-  },
-  {
-    path: '/languages',
-    name: 'Languages',
-    component: () => import('../views/Languages.vue')
+    path: '/stack',
+    name: 'Stack',
+    component: () => import('../views/Stack.vue')
   },
   {
     path: '/testimonials',

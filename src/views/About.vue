@@ -1,54 +1,56 @@
 <template>
-  <v-container >
-    <br>
-    <br>
-    <v-row no-gutters>
-      <v-col>
-        <v-card
-          class="pa-2"
-          outlined
-          tile
-        >
-          <div class="content">
-            <h2 class="underline">Full Name</h2>
-            <p class="text">Anele Sokwane</p>
-
-            <h2 class="underline">Date Of Birth</h2>
-            <p class="text">06/04/2002</p>
-
-            <h2 class="underline">Gender</h2>
-            <p class="text">Male</p>
-
-            <h2 class="underline">Location</h2>
-            <p class="text">Eersteriver, Western Cape</p>
-
-            <h2 class="underline">Nationality</h2>
-            <p class="text">South African</p>
-
-            <h2 class="underline">Education</h2>
-            <p class="text">Tuscany Glen High School [Matric 2019]</p>
-            <h2 class="underline">Hobbies</h2>
-            <p class="text">Basketball, 
-              Making videos, 
-              Drawing, 
-              Rapping</p>
-            <h2 class="underline">Bio</h2>
-            <p class="text">I am very hard-working, passionate, committed and creative. I never give up no matter how hard things get because I believe that in order to succeed, you have to fail and learn from that failure to get better. I also believe that friends and family are important but make sure that the relationships are good.
-            Ever sinceI was young, I always loved computers and working with them. Everyone would come to me whenever they had a problem with their computers. I got interested in coding once my cousin told me about it and I saw the world differently because I realised that most of the most successful websites and pages that we use on a daily basis are made with ...words. It has always been fascinating to me. I enjoy coding and I try to code something each and every day. I am very dedicated to getting better and developing my skills.</p>
-          
-          </div>
-         
-        </v-card>
-          
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-timeline>
+    <v-timeline-item
+      v-for="(year, i) in years"
+      :key="i"
+      :color="year.color"
+      small
+    >
+      <template v-slot:opposite>
+        <span
+          :class="`headline font-weight-bold ${year.color}--text`"
+          v-text="year.year"
+        ></span>
+      </template>
+      <div class="py-4">
+        <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
+          Lorem ipsum
+        </h2>
+        <div>
+          Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+        </div>
+      </div>
+    </v-timeline-item>
+  </v-timeline>
 </template>
 
 <script>
-export default {
-  name: "About"
-}
+  export default {
+    data: () => ({
+      years: [
+        {
+          color: 'cyan',
+          year: '1960',
+        },
+        {
+          color: 'green',
+          year: '1970',
+        },
+        {
+          color: 'pink',
+          year: '1980',
+        },
+        {
+          color: 'amber',
+          year: '1990',
+        },
+        {
+          color: 'orange',
+          year: '2000',
+        },
+      ],
+    }),
+  }
 </script>
 <style scoped>
 .content {
