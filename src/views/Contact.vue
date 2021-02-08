@@ -1,54 +1,114 @@
 <template lang="html">
-   <div class="flex-center">
-     <br>
-      <h3 is="sui-header" text-align="left" attached="top">
-      Get In Touch With Me!
-      </h3>
-     <br>
-     <br>
-    <a href="https://www.facebook.com/anelesokwane" target="_blank">
-      <sui-button social="facebook" content="Facebook" icon="facebook" />
-    </a>
-    <br>
-    <a href="https://twitter.com/anelesokwane19" target="_blank">
-      <sui-button social="twitter" content="Twitter" icon="twitter" />
-    </a>
-    <br>
-    <a href="https://www.linkedin.com/in/anele-sokwane-49baa919a/" target="_blank">
-      <sui-button social="linkedin" content="LinkedIn" icon="linkedin" />
-    </a>
-    <br>
-    <a href="https://www.instagram.com/anele_sokwane/" target="_blank">
-      <sui-button social="instagram" content="Instagram" icon="instagram" />
-    </a>
-    <br>
-    <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
-      <sui-button social="youtube" content="Youtube" icon="youtube" />
-    </a>
-    <br>
-    <sui-button icon> Email:
-      <a href="mailto: aneleuchiha000@gmail.com?">
-      <sui-icon name="mail" />
-      aneleuchiha000@gmail.com
-      </a>
-    </sui-button>
-     <br>
-    <sui-button icon> 
-      <sui-icon name="phone" />
-      Phone: 081 553 9120
-    </sui-button>
-  </div> 
+  <div>
+  <mdb-container class="mt-5">
+    <mdb-card>
+      <mdb-card-title class="mt-4 h2">Contact us</mdb-card-title>
+      <mdb-card-body>
+        <mdb-card-text
+          class="pr-5 pl-5"
+          mr-4
+          ml-4
+        >Do you have any questions? Please do not hesitate to contact me directly.<mdb-icon icon="thumbs-up" /></mdb-card-text>
+        <form class="needs-validation" novalidate @submit.prevent="submitForm">
+          <mdb-row>
+            <mdb-col md="8">
+              <mdb-row>
+                <mdb-col>
+                  <mdb-input label="Name" v-model="fields.name" required />
+                  <mdb-input label="Surname" v-model="fields.surname" required />
+                  <mdb-input label="Email" v-model="fields.subject" required />
+                </mdb-col>
+              </mdb-row>
+              <mdb-row>
+                <mdb-col>
+                  <mdb-input
+                    type="textarea"
+                    label="Your message"
+                    v-model="fields.message"
+                    required
+                  />
+                </mdb-col>
+              </mdb-row>
+            </mdb-col>
+            <mdb-col md="4">
+              <mdb-row>
+                <mdb-col class="mt-4">
+                  <mdb-icon icon="map-marker-alt" size="2x" />
+                  <p>San Francisco, CA 94126, USA</p>
+                </mdb-col>
+              </mdb-row>
+              <mdb-row>
+                <mdb-col class="mt-4">
+                  <mdb-icon icon="phone" size="2x" />
+                  <p>+ 01 234 567 89</p>
+                </mdb-col>
+              </mdb-row>
+              <mdb-row>
+                <mdb-col class="mt-4">
+                  <mdb-icon icon="envelope" size="2x" />
+                  <p>anelesokwane@gmail.com</p>
+                </mdb-col>
+              </mdb-row>
+            </mdb-col>
+          </mdb-row>
+          <center>
+          <mdb-btn color="primary" type="submit" class="align-middle">Send</mdb-btn>
+          </center>
+        </form>
+      </mdb-card-body>
+    </mdb-card>
+  </mdb-container>
+  </div>
 </template>
 <script>
-export default {
-    name: "Contact"
-}
-</script>
+  import {
+    mdbContainer,
+    mdbInput,
+    mdbCard,
+    //mdbCardHeader,
+    mdbCardTitle,
+    mdbCardText,
+    mdbCardBody,
+    mdbIcon,
+    mdbBtn,
+    mdbRow,
+    mdbCol
+  } from "mdbvue";
 
+  export default {
+    components: {
+      mdbContainer,
+      mdbInput,
+      mdbCard,
+      //mdbCardHeader,
+      mdbCardTitle,
+      mdbCardBody,
+      mdbCardText,
+      mdbIcon,
+      mdbBtn,
+      mdbRow,
+      mdbCol
+    },
+    data() {
+      return {
+        fields: {
+          name: "",
+          email: "",
+          surname: "",
+          message: ""
+        }
+      };
+    },
+    methods: {
+      submitForm(event) {
+        event.target.classList.add("was-validated");
+        window.location.href = "mailto:anelesokwane@gmail.com";
+      }
+    }
+  };
+</script>
 <style>
-.flex-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
+.container {
+    text-align: center;
 }
 </style>
