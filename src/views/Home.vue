@@ -14,7 +14,7 @@
     <br>
     <div class='line'>
       <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
-    <h2 class='lineUp'>Subscribe To My YouTube Channel!</h2>
+    <i class="youtube huge icon lineUp"></i>
       </a>
   </div>
   </div>
@@ -35,7 +35,7 @@ export default{
   margin-bottom: 16px;
 }
 .lineUp {
-  color: #FF9900;
+  color: red;
   font-style: italic;
   font-weight: 200;
   animation: 2s anim-lineUp ease-out infinite;
