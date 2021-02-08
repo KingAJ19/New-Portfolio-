@@ -34,8 +34,8 @@
             <mdb-col md="8">
               <mdb-row>
                 <mdb-col>
-                  <mdb-input label="Name" v-model="fields.subject" required />
-                  <mdb-input label="Surname" v-model="fields.subject" required />
+                  <mdb-input label="Name" v-model="fields.name" required />
+                  <mdb-input label="Surname" v-model="fields.surname" required />
                   <mdb-input label="Email" v-model="fields.subject" required />
                 </mdb-col>
               </mdb-row>
@@ -66,7 +66,7 @@
               <mdb-row>
                 <mdb-col class="mt-4">
                   <mdb-icon icon="envelope" size="2x" />
-                  <p>contact@mdbootstrap.com</p>
+                  <p>anelesokwane@gmail.com</p>
                 </mdb-col>
               </mdb-row>
             </mdb-col>
@@ -119,7 +119,7 @@
         fields: {
           name: "",
           email: "",
-          subject: "",
+          surname: "",
           message: ""
         }
       };
@@ -127,7 +127,7 @@
     methods: {
       submitForm(event) {
         event.target.classList.add("was-validated");
-        // submit form
+        window.location.href = "mailto:anelesokwane@gmail.com";
       }
     }
   };
