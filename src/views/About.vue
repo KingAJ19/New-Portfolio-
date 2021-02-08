@@ -11,7 +11,7 @@
         >
           <div class="content">
             <h2 class="underline">Full Name</h2>
-            <p class="text">Anele Sokwane</p>
+            <vue-typer  erase-style='backspace' text='Anele Joshua Sokwane'></vue-typer>
 
             <h2 class="underline">Date Of Birth</h2>
             <p class="text">06/04/2002</p>

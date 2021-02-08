@@ -15,7 +15,6 @@
     <div class='line'>
       <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
     <h2 class='lineUp'>Subscribe To My YouTube Channel!</h2>
-    <vue-typer text='Hello World! I was registered globally!'></vue-typer>
       </a>
   </div>
   </div>
