@@ -5,7 +5,7 @@
             <v-icon>mdi-menu</v-icon>
         </v-app-bar-nav-icon>
         <v-toolbar-title class="grey--text">
-            <span class="font-weight-bold">Anele Sokwane</span>
+            <!-- <span class="font-weight-bold">Anele Sokwane</span> -->
         </v-toolbar-title>
         <v-spacer/>
         
