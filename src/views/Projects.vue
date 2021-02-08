@@ -2,8 +2,8 @@
   <div class="projects">
     <v-container class="my-6">
       <v-layout row wrap>
-        <v-flex xs19 sm9 md4 lg3 v-for="project in projects" :key="project.name" link :to="project.github + project.link">
-          <v-card height="96%" width="99%" text class="text-center ma-3">
+        <v-flex xs12 sm6 md4 lg3 v-for="project in projects" :key="project.name" link :to="project.github + project.link">
+          <v-card height="96%" width="auto" text class="text-center ma-3">
             <v-responsive class="pt-4">
               <v-avatar size="130"> 
                 <img :src="project.avatar">
@@ -13,8 +13,22 @@
               <h1 class="heading font-weight-bold">{{ project.name }}</h1>
               <div class="black--text">{{ project.description }}</div>
             </v-card-text>
-            <v-flex>
-              <v-card-actions>
+            <mdb-container>
+              <mdb-row>
+              <mdb-col sm="4">
+                <v-btn text color="blue">
+                <v-icon small left>mdi-folder</v-icon>
+                <a :href="project.link" target="_blank">Demo</a>
+              </v-btn>
+              </mdb-col>
+              <mdb-col sm="4">
+                <v-btn text color="blue">
+                <v-icon small left>mdi-folder</v-icon>
+                <a :href="project.github" target="_blank">GitHub</a>
+              </v-btn>
+              </mdb-col>
+             </mdb-row>`
+              <!-- <v-card-actions>
                <v-btn text color="blue">
                 <v-icon small left>mdi-folder</v-icon>
                 <a :href="project.link" target="_blank">Demo</a>
@@ -23,8 +37,8 @@
                 <v-icon small left>mdi-folder</v-icon>
                 <a :href="project.github" target="_blank">GitHub</a>
               </v-btn>
-            </v-card-actions>
-            </v-flex>
+            </v-card-actions> -->
+            </mdb-container>
           </v-card>
         </v-flex>
       </v-layout>
@@ -33,8 +47,10 @@
 </template>
 
 <script>
+import {mdbContainer, mdbRow, mdbCol} from 'mdbvue';
     export default {
         name: "Projects",
+        components: {mdbContainer, mdbRow, mdbCol},
         data(){
     return{
       projects: [
