@@ -124,8 +124,8 @@
     },
     methods: {
       submitForm(event) {
-        event.target.classList.add("was-validated");
-        window.location.href = "mailto:anelesokwane@gmail.com";
+        event.target.classList.add("was-validated")
+        // window.location.href = "mailto:anelesokwane@gmail.com";
       }
     }
   };

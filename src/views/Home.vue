@@ -1,5 +1,4 @@
 <template>
-     
        <div
       class="container col-lg-8 col-md-12 col-sm-8 col-xs-9 "
       style="text-align:center">
@@ -16,6 +15,11 @@
       <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
     <i class="youtube huge square icon btnColor"></i>
       </a>
+      <hr>
+      <hr>
+      <mdb-container>
+    <mdb-progress bgColor="primary-color-dark" indeterminate />
+      </mdb-container>
   </div>
   </div>
   <!-- export default{
@@ -24,7 +28,16 @@
 } -->
 </template>
 
-
+<script>
+  import { mdbContainer, mdbProgress } from 'mdbvue';
+  export default {
+    name: 'ProgressProPage',
+    components: {
+      mdbContainer,
+      mdbProgress
+    }
+  };
+</script>
 <style scoped>
 .btnColor{
   color: red;
