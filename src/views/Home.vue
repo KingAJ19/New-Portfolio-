@@ -9,12 +9,12 @@
       </v-avatar>
       </v-flex>
       <br>
-    <h2>My name is  <h2 class='underline'>Anele Sokwane</h2> I am a Junior Web Developer and a <span class="txt"></span></h2>
+    <h2>My name is  <h2 class='lineUp'>Anele Sokwane</h2> I am a Junior Web Developer and a <span class="txt"></span></h2>
     <br>
     <br>
     <div class='line'>
       <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
-    <i class="youtube huge square icon lineUp"></i>
+    <i class="youtube huge square icon btnColor"></i>
       </a>
   </div>
   </div>
@@ -27,6 +27,9 @@ export default{
 }
 </script>
 <style scoped>
+.btnColor{
+  color: red;
+}
 .line {
   width: 100%;
   height: 9rem;
