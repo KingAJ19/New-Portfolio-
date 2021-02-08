@@ -2,7 +2,7 @@
   <div>
   <mdb-container class="mt-5">
     <mdb-card>
-      <mdb-card-title class="mt-4 h2">Contact us</mdb-card-title>
+      <mdb-card-title class="mt-4 h2">Contact Me!</mdb-card-title>
       <mdb-card-body>
         <mdb-card-text
           class="pr-5 pl-5"
