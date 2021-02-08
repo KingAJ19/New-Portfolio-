@@ -42,7 +42,7 @@ export default {
                 links: [
                 { text: 'Home', icon: 'mdi-home-city', route: '/' },
                 { text: 'About', icon: 'mdi-account', route: '/about' },
-                { text: 'Stack', icon: 'mdi-web', route: '/skills' },
+                { text: 'Stack', icon: 'mdi-web', route: '/stack' },
                 { text: 'Projects', icon: 'mdi-folder', route: '/projects' },
                 { text: 'Testimonials', icon: 'mdi-chat', route: '/testimonials'},
                 { text: 'Contact', icon: 'mdi-account-box', route: '/contact' }
