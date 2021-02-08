@@ -59,22 +59,22 @@
               <ul class="list-inline text-center list-unstyled">
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://twitter.com/anelesokwane19" target="_blank">
-                    <mdb-icon fab icon="twitter"/>
+                    <i class="fab fa-twitter fa-2x"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://za.linkedin.com/in/anele-sokwane-49baa919a" target="_blank">
-                    <mdb-icon fab icon="linkedin"/>
+                   <i class="fab fa-linkedin-in fa-2x"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://www.instagram.com/anele_sokwane/?hl=en" target="_blank">
-                    <mdb-icon fab icon="instagram"/>
+                    <i class="fab fa-instagram fa-2x"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://github.com/KingAJ19" target="_blank">
-                    <mdb-icon fab icon="github"/>
+                    <i class="fab fa-github fa-2x"></i>
                   </a>
                 </li>
               </ul>
