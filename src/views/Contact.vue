@@ -6,9 +6,9 @@
       <mdb-card-body>
         <mdb-card-text
           class="pr-5 pl-5"
-          mr-4
-          ml-4
-        >Do you have any questions? Please do not hesitate to contact me directly.</mdb-card-text>
+          mr-6
+          ml-6
+        >Please do not hesitate to contact me directly.</mdb-card-text>
         <form class="needs-validation" novalidate @submit.prevent="submitForm">
           <mdb-row>
             <mdb-col md="8">
