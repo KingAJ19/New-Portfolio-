@@ -42,11 +42,11 @@ export default {
                 links: [
                 { text: 'Home', icon: 'mdi-home-city', route: '/' },
                 { text: 'About', icon: 'mdi-account', route: '/about' },
-                { text: 'Contact', icon: 'mdi-account-box', route: '/contact' },
                 { text: 'Skills', icon: 'mdi-web', route: '/skills' },
                 { text: 'Projects', icon: 'mdi-folder', route: '/projects' },
                 { text: 'Languages', icon: 'mdi-devices', route: '/languages'},
-                { text: 'Testimonials', icon: 'mdi-chat', route: '/testimonials'}
+                { text: 'Testimonials', icon: 'mdi-chat', route: '/testimonials'},
+                { text: 'Contact', icon: 'mdi-account-box', route: '/contact' }
         ],
             }
         }
