@@ -14,7 +14,7 @@
     <br>
     <div class='line'>
       <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
-    <i class="youtube huge icon lineUp"></i>
+    <i class="youtube huge square icon lineUp"></i>
       </a>
   </div>
   </div>
