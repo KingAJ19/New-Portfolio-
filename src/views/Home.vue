@@ -71,7 +71,9 @@
               </mdb-row>
             </mdb-col>
           </mdb-row>
-          <mdb-btn color="primary" type="submit" class="float-left">Send</mdb-btn>
+          <center>
+          <mdb-btn color="primary" type="submit" class="align-middle">Send</mdb-btn>
+          </center>
         </form>
       </mdb-card-body>
     </mdb-card>
