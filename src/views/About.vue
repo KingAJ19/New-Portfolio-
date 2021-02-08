@@ -1,57 +1,28 @@
 <template>
   <v-timeline>
     <v-timeline-item
-      v-for="(year, i) in years"
-      :key="i"
-      :color="year.color"
-      small
+      v-for="n in 4"
+      :key="n"
+      large
     >
-      <template v-slot:opposite>
-        <span
-          :class="`headline font-weight-bold ${year.color}--text`"
-          v-text="year.year"
-        ></span>
+      <template v-slot:icon>
+        <v-avatar>
+          <img src="/Anele.jpg">
+        </v-avatar>
       </template>
-      <div class="py-4">
-        <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
+      <template v-slot:opposite>
+        <span>Tus eu perfecto</span>
+      </template>
+      <v-card class="elevation-2">
+        <v-card-title class="headline">
           Lorem ipsum
-        </h2>
-        <div>
-          Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-        </div>
-      </div>
+        </v-card-title>
+        <v-card-text>Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.</v-card-text>
+      </v-card>
     </v-timeline-item>
   </v-timeline>
 </template>
 
-<script>
-  export default {
-    data: () => ({
-      years: [
-        {
-          color: 'cyan',
-          year: '1960',
-        },
-        {
-          color: 'green',
-          year: '1970',
-        },
-        {
-          color: 'pink',
-          year: '1980',
-        },
-        {
-          color: 'amber',
-          year: '1990',
-        },
-        {
-          color: 'orange',
-          year: '2000',
-        },
-      ],
-    }),
-  }
-</script>
 <style scoped>
 .content {
   display: flex;
