@@ -34,13 +34,13 @@
               <mdb-row>
                 <mdb-col class="mt-4">
                   <mdb-icon icon="map-marker-alt" size="2x" />
-                  <p>San Francisco, CA 94126, USA</p>
+                  <p>Cape Town, Western Cape</p>
                 </mdb-col>
               </mdb-row>
               <mdb-row>
                 <mdb-col class="mt-4">
                   <mdb-icon icon="phone" size="2x" />
-                  <p>+ 01 234 567 89</p>
+                  <p>081 553 9120</p>
                 </mdb-col>
               </mdb-row>
               <mdb-row>
