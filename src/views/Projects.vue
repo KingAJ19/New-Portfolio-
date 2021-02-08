@@ -17,13 +17,13 @@
               <mdb-row>
               <mdb-col sm="4">
                 <v-btn text color="blue">
-                <v-icon small left>mdi-folder</v-icon>
+                <i class="fas fa-globe-africa"></i>
                 <a :href="project.link" target="_blank">Demo</a>
               </v-btn>
               </mdb-col>
               <mdb-col sm="4">
                 <v-btn text color="blue">
-                <v-icon small left>mdi-folder</v-icon>
+               <i class="fab fa-github"></i>
                 <a :href="project.github" target="_blank">GitHub</a>
               </v-btn>
               </mdb-col>
