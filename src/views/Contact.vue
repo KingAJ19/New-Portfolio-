@@ -55,6 +55,29 @@
           <mdb-btn color="primary" type="submit" class="align-middle">Send</mdb-btn>
           </center>
         </form>
+        <hr class="hr-light my-4"/>
+              <ul class="list-inline text-center list-unstyled">
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg w-ic" href="https://twitter.com/anelesokwane19" target="_blank">
+                    <mdb-icon fab icon="twitter"/>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg w-ic" href="https://za.linkedin.com/in/anele-sokwane-49baa919a" target="_blank">
+                    <mdb-icon fab icon="linkedin"/>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg w-ic" href="https://www.instagram.com/anele_sokwane/?hl=en" target="_blank">
+                    <mdb-icon fab icon="instagram"/>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="p-2 fa-lg w-ic" href="https://github.com/KingAJ19" target="_blank">
+                    <mdb-icon fab icon="github"/>
+                  </a>
+                </li>
+              </ul>
       </mdb-card-body>
     </mdb-card>
   </mdb-container>
