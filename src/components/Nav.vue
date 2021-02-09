@@ -16,9 +16,6 @@
                <v-avatar size="150">
                  <img src="/itachi.jpg" alt="Anele">
                </v-avatar>
-               <!-- <p class="white--text font-weight-bold subheading mt-1">
-                 Anele Sokwane
-               </p> -->
              </v-flex>
            </v-layout>
            <v-list>
