@@ -51,9 +51,9 @@
   top: 0;
   left:0;
   color: #fff;
-  z-index: 9999;
+  z-index: 1;
   font-family: 'Muli', sans-serif;
-  font-size: 40px;
+  font-size: 20px;
   text-align:center;
 }
 /* .btnColor{
