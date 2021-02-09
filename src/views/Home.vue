@@ -46,13 +46,14 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 #hello {
   position:absolute;
   top: 0;
   left:0;
   color: #fff;
   z-index: 1;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Amatic SC', cursive;
   font-size: 20px;
   text-align:center;
 }
@@ -108,7 +109,7 @@ h2 .txt::before{
 .particles-js {
     background-image: url('/background-image.jpg') ;
     position: fixed;
-    top: 10;
+    top: 40;
     left: 0;
     width: 100%;
     height: 100%;

@@ -51,6 +51,7 @@
               </mdb-row>
             </mdb-col>
           </mdb-row>
+          <br>
           <center>
           <mdb-btn color="primary" @click="sendEmail" type="submit" class="align-middle">Send</mdb-btn>
           </center>
