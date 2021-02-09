@@ -2,23 +2,25 @@
       <div class="home page">
         <vue-particles
         color="#dedede"
-        :particleOpacity="0.5"
-        :particlesNumber="160"
+        :particleOpacity="0.9"
+        :particlesNumber="800"
         shapeType="circle"
         :particleSize="2"
         linesColor="#dedede"
-        :linesWidth="1"
+        :linesWidth="0"
         :lineLinked="true"
-        :lineOpacity="0.2"
+        :lineOpacity="0"
         :linesDistance="550"
-        :moveSpeed="2"
+        :moveSpeed="3"
         :hoverEffect="true"
         hoverMode="grab"
         :clickEffect="true"
         clickMode="push"
         class="particles-js"
       >
-      <canvas class="particles-js-canvas-el" width="935" height="833" style="width: 100%; height: 100%;"></canvas>
+      <canvas class="particles-js-canvas-el" width="935" height="833" style="width: 100%; height: 100%;">
+        <h2>Hi, My name is Anele Sokwane</h2>
+      </canvas>
       </vue-particles>
       </div>
        <!-- <div
@@ -42,6 +44,10 @@
 </template>
 
 <style scoped>
+.particles-js-canvas-el{
+  position: fixed;
+  z-index: -10;
+}
 /* .btnColor{
   color: red;
 }

@@ -11,13 +11,6 @@
         
         </v-toolbar>
          <v-navigation-drawer app v-model="drawer" class="black">
-           <v-layout column align-center>
-             <v-flex class="mt-5">
-               <v-avatar size="150">
-                 <img src="/itachi.jpg" alt="Anele">
-               </v-avatar>
-             </v-flex>
-           </v-layout>
            <v-list>
         <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
           <v-list-item-action>
