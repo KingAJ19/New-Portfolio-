@@ -16,7 +16,7 @@
                 <mdb-col>
                   <mdb-input label="Name" v-model="fields.name" required />
                   <mdb-input label="Surname" v-model="fields.surname" required />
-                  <mdb-input label="Email" v-model="fields.subject" required />
+                  <mdb-input label="Email" v-model="fields.email" required />
                 </mdb-col>
               </mdb-row>
               <mdb-row>
