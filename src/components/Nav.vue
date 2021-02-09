@@ -43,7 +43,6 @@ export default {
 </script>
 <style scoped>
 #app{
-  background-color: black;
-  opacity: 0.2;
+  background-color: #919191;
 }
 </style>

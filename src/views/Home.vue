@@ -1,6 +1,6 @@
 <template>
       <div class="home page">
-        <h2 id="hello">Hi, My name is Anele Sokwane</h2>
+        <h2 id="hello" class="line-1 anim-typewriter">Hi, My name is Anele Sokwane</h2>
         <!-- Find a typing animation for the home page -->
         <vue-particles
         color="#dedede"
@@ -49,13 +49,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 #hello {
   position:absolute;
-  top: 0;
+  top: 90px;
   left:0;
   color: #fff;
   z-index: 1;
   font-family: 'Amatic SC', cursive;
   font-size: 20px;
   text-align:center;
+  align-items: center;
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: auto;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;  
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(28) 1s 1 normal both,
+             blinkTextCursor 500ms steps(28) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
 /* .btnColor{
   color: red;
