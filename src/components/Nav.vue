@@ -14,7 +14,7 @@
            <v-layout column align-center>
              <v-flex class="mt-5">
                <v-avatar size="150">
-                 <img src="/Sokwane.png" alt="Anele">
+                 <img src="/itachi.jpg" alt="Anele">
                </v-avatar>
                <!-- <p class="white--text font-weight-bold subheading mt-1">
                  Anele Sokwane
