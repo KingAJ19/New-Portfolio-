@@ -10,18 +10,21 @@
   <a href="#">Contact</a>
 </div>
 
-<span style="font-size:34px;cursor:pointer;left:25px" onclick="openNav()">&#9776;</span>
+<span class="hamburger" style="font-size:34px;cursor:pointer;left:25px" onclick="openNav()">&#9776;</span>
     </div>
 </template>
 <style scoped>
 body {
   font-family: "Lato", sans-serif;
 }
+.hamburger{
+    width: auto;
+}
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 5;
   top: 0;
   left: 0;
   background-color: black;

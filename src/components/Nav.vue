@@ -1,10 +1,10 @@
 <template>
     <nav>
-        <v-toolbar flat app dark>
-        <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer">
+        <v-toolbar flat app id="app">
+        <v-app-bar-nav-icon class="white--text" @click="drawer = !drawer">
             <v-icon>mdi-menu</v-icon>
         </v-app-bar-nav-icon>
-        <v-toolbar-title class="grey--text">
+        <v-toolbar-title class="white--text">
             <span class="font-weight-bold">Anele Sokwane</span>
         </v-toolbar-title>
         <v-spacer/>
@@ -41,3 +41,9 @@ export default {
         }
 }
 </script>
+<style scoped>
+#app{
+  background-color: black;
+  opacity: 0.2;
+}
+</style>
