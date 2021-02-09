@@ -1,5 +1,6 @@
 <template>
       <div class="home page">
+        <h2 id="hello">Hi, My name is Anele Sokwane</h2>
         <vue-particles
         color="#dedede"
         :particleOpacity="0.9"
@@ -19,7 +20,7 @@
         class="particles-js"
       >
       <canvas class="particles-js-canvas-el" width="935" height="833" style="width: 100%; height: 100%;">
-        <h2>Hi, My name is Anele Sokwane</h2>
+        
       </canvas>
       </vue-particles>
       </div>
@@ -44,9 +45,16 @@
 </template>
 
 <style scoped>
-.particles-js-canvas-el{
-  position: fixed;
-  z-index: -10;
+#hello {
+  position:absolute;
+  top: 0;
+  left:0;
+  color: #fff;
+  z-index: 9999;
+
+  font-family: 'Muli', sans-serif;
+  font-size: 40px;
+  text-align:center;
 }
 /* .btnColor{
   color: red;
@@ -99,7 +107,6 @@ h2 .txt::before{
 } */
 .particles-js {
     background-image: url('/background-image.jpg') ;
-    /* background-size: cover; */
     position: fixed;
     top: 10;
     left: 0;
