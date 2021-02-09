@@ -52,7 +52,7 @@
             </mdb-col>
           </mdb-row>
           <center>
-          <mdb-btn color="primary" type="submit" class="align-middle">Send</mdb-btn>
+          <mdb-btn color="primary" @click="sendEmail" type="submit" class="align-middle">Send</mdb-btn>
           </center>
         </form>
         <hr class="hr-light my-4"/>
@@ -126,6 +126,14 @@
       submitForm(event) {
         event.target.classList.add("was-validated")
         // window.location.href = "mailto:anelesokwane@gmail.com";
+        // window.open('mailto:anelesokwane@gmail.com?subject=subject&body=body');
+      },
+      sendEmail(){
+        if (this.fields.length === 0){
+         window.location.href = "mailto:anelesokwane@gmail.com";
+        } else {
+          alert('Please fill in all the fields!')
+        }
       }
     }
   };
