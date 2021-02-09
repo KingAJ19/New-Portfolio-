@@ -52,7 +52,6 @@
   left:0;
   color: #fff;
   z-index: 9999;
-
   font-family: 'Muli', sans-serif;
   font-size: 40px;
   text-align:center;
