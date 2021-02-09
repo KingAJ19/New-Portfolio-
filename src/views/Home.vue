@@ -1,6 +1,7 @@
 <template>
       <div class="home page">
         <h2 id="hello">Hi, My name is Anele Sokwane</h2>
+        <!-- Find a typing animation for the home page -->
         <vue-particles
         color="#dedede"
         :particleOpacity="0.9"
