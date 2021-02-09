@@ -1,8 +1,28 @@
 <template>
-       <div
+      <vue-particles
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="120"
+        shapeType="circle"
+        :particleSize="7"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="6"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+        class="particles-js"
+      >
+      <canvas class="particles-js-canvas-el" width="935" height="833" style="width: 100%; height: 100%;"></canvas>
+      </vue-particles>
+       <!-- <div
       class="container col-lg-8 col-md-12 col-sm-8 col-xs-9 "
-      style="text-align:center">
-      <v-flex class="mt-2">
+      style="text-align:center"> -->
+      <!-- <v-flex class="mt-2">
       <v-avatar size="220">
       <img src="/Anele.jpg" alt="Anele">
       </v-avatar>
@@ -15,16 +35,12 @@
       <a href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
     <i class="youtube huge square icon btnColor"></i>
       </a>
-  </div>
-  </div>
-  <!-- export default{
-  name: "Home",
-  
-} -->
+  </div> -->
+  <!-- </div> -->
 </template>
 
 <style scoped>
-.btnColor{
+/* .btnColor{
   color: red;
 }
 .line {
@@ -72,6 +88,14 @@ h2 .txt::before{
 .underline{
   text-decoration: underline;
   color: #FF0000;
+} */
+.particles-js {
+    background-image: url('/background-image.jpg') ;
+    /* background-size: cover; */
+    position: fixed;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-
 </style>
