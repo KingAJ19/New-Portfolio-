@@ -1,5 +1,6 @@
 <template>
-      <vue-particles
+      <div class="home page">
+        <vue-particles
         color="#dedede"
         :particleOpacity="0.7"
         :particlesNumber="120"
@@ -19,6 +20,7 @@
       >
       <canvas class="particles-js-canvas-el" width="935" height="833" style="width: 100%; height: 100%;"></canvas>
       </vue-particles>
+      </div>
        <!-- <div
       class="container col-lg-8 col-md-12 col-sm-8 col-xs-9 "
       style="text-align:center"> -->
@@ -98,4 +100,5 @@ h2 .txt::before{
     width: 100%;
     height: 100%;
 }
+
 </style>
