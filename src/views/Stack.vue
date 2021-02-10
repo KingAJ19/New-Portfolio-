@@ -1,96 +1,74 @@
 <template>
-  <v-container fluid grid-list-lg>
-    <br>
+  <v-container class="my-6"> 
     <v-layout row wrap>
-      <v-flex xs12>
-        <v-subheader class="pl-0">React</v-subheader>
-        <v-slider
-          readonly
-          thumb-color="black"
-          v-model="slider2"
-          thumb-label="always"
-        ></v-slider>
-      </v-flex>
-      <v-flex xs12>
-        <v-subheader class="pl-0">VueJS</v-subheader>
-        <v-slider
-          readonly
-          v-model="slider"
-          thumb-color="green"
-          thumb-label="always"
-        ></v-slider>
-      </v-flex>
+      <v-flex xs12 sm6 md4 lg3>
+        <v-card
+    class="mx-auto"
+    max-width="344"
+  >
+    <v-card-text>
+      <div>Word of the Day</div>
+      <p class="display-1 text--primary">
+        el·ee·mos·y·nar·y
+      </p>
+      <p>adjective</p>
+      <div class="text--primary">
+        relating to or dependent on charity; charitable.<br>
+        "an eleemosynary educational institution."
+      </div>
+    </v-card-text>
+    <v-card-actions>
+      <v-btn
+        text
+        color="teal accent-4"
+        @click="reveal = true"
+      >
+        Learn More
+      </v-btn>
+    </v-card-actions>
 
-      <v-flex xs12>
-        <v-subheader class="pl-0">CSS</v-subheader>
-        <v-slider
-          readonly
-          v-model="slider4"
-          thumb-color="blue"
-          thumb-label="always"
-        ></v-slider>
-      </v-flex>
-
-      <v-flex xs12>
-        <v-subheader class="pl-0">HTML</v-subheader>
-        <v-slider
-          readonly
-          v-model="slider3"
-          thumb-color="orange"
-          thumb-label="always"
-        ></v-slider>
-      </v-flex>
-
-      <v-flex xs12>
-        <v-subheader class="pl-0">Python</v-subheader>
-        <v-slider
-          readonly
-          v-model="slider6"
-          thumb-color="#0F5298"
-          thumb-label="always"
-        ></v-slider>
-      </v-flex>
-
-      <v-flex xs12>
-        <v-subheader class="pl-0">Javascript</v-subheader>
-        <v-slider
-          readonly
-          v-model="slider5"
-          thumb-color="#F8EA27"
-          thumb-label="always"
-        ></v-slider>
-      </v-flex>
-
-      <v-flex xs12>
-        <v-subheader class="pl-0">NodeJS</v-subheader>
-        <v-slider
-          readonly
-          v-model="slider7"
-          thumb-color="#3C873A"
-          thumb-label="always"
-        ></v-slider>
+    <v-expand-transition>
+      <v-card
+        v-if="reveal"
+        class="transition-fast-in-fast-out v-card--reveal"
+        style="height: 100%;"
+      >
+        <v-card-text class="pb-0">
+          <p class="display-1 text--primary">
+            Origin
+          </p>
+          <p>late 16th century (as a noun denoting a place where alms were distributed): from medieval Latin eleemosynarius, from late Latin eleemosyna ‘alms’, from Greek eleēmosunē ‘compassion’ </p>
+        </v-card-text>
+        <v-card-actions class="pt-0">
+          <v-btn
+            text
+            color="teal accent-4"
+            @click="reveal = false"
+          >
+            Close
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-expand-transition>
+  </v-card>
       </v-flex>
     </v-layout>
-  </v-container>
+    </v-container>
 </template>
 
 <script>
-export default {
-  name: "Stack",
-  data () {
-      return {
-        slider: 81,
-        slider2: 74,
-        slider3: 93,
-        slider4: 89,
-        slider5: 76,
-        slider6: 69,
-        slider7: 47
-      }
-    },
-}
+  export default {
+    data: () => ({
+      reveal: false,
+    }),
+  }
 </script>
 
 <style>
-
+.v-card--reveal {
+  bottom: 0;
+  opacity: 1 !important;
+  position: absolute;
+  width: 100%;
+}
 </style>
