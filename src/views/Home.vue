@@ -1,7 +1,8 @@
 <template>
       <div class="home page">
-        <h2 id="hello" class="lineUp">Hi, My name is Anele Sokwane</h2>
+        <h3 id="hello" class="animate__animated animate__backInDown">Hi, My name is Anele Sokwane</h3>
         <!-- Find a typing animation for the home page -->
+        
         <vue-particles
         color="#dedede"
         :particleOpacity="0.9"
@@ -36,45 +37,22 @@
   color: #fff;
   z-index: 1;
   font-family: 'Amatic SC', cursive;
-  font-size: 20px;
   text-align:center;
   align-items: center;
 }
-.lineUp {
-  color: #FF9900;
-  font-style: italic;
-  font-weight: 200;
-  animation: 2s anim-lineUp ease-out infinite;
-}
-@keyframes anim-lineUp {
-  0% {
-    opacity: 0;
-    transform: translateY(80%);
-  }
-  20% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
-}
+
 @media screen and (max-width: 320px){
   #hello {
-    top: 120px;
+    top: 90px;
     left: 0;
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 376px){
   #hello {
     top: 150px;
     left: 0;
-    font-size: 53px;
+    font-size: 33px;
   }
 }
 @media screen and (max-width: 426px){
@@ -95,14 +73,14 @@
   #hello {
     top: 190px;
     left: 7%;
-    font-size: 80px;
+    font-size: 98px;
   }
 }
 @media screen and (max-width: 1441px){
   #hello {
     top: 190px;
     left: 7%;
-    font-size: 66px;
+    font-size: 69px;
   }
 }
 .particles-js {
