@@ -31,7 +31,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 #hello {
   position:absolute;
-  top: 90px;
+  /* top: 20px; */
   left:0;
   color: #fff;
   z-index: 1;
@@ -45,42 +45,42 @@
 
 @media screen and (max-width: 320px){
   #hello {
-    top: 90px;
+    top: 40px;
     left: 0;
     font-size: 30px;
   }
 }
 @media screen and (max-width: 376px){
   #hello {
-    top: 150px;
+    top: 60px;
     left: 0;
     font-size: 33px;
   }
 }
 @media screen and (max-width: 426px){
   #hello {
-    top: 150px;
+    top: 80px;
     left: 0;
     font-size: 56px;
   }
 }
 @media screen and (max-width: 769px){
   #hello {
-    top: 170px;
+    top: 100px;
     left: 7%;
     font-size: 60px;
   }
 }
 @media screen and (max-width: 1025px){
   #hello {
-    top: 190px;
+    top: 140px;
     left: 7%;
     font-size: 98px;
   }
 }
 @media screen and (max-width: 1441px){
   #hello {
-    top: 190px;
+    top: 180px;
     left: 7%;
     font-size: 69px;
   }
