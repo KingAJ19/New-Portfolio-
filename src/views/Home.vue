@@ -1,6 +1,6 @@
 <template>
       <div class="home page">
-        <h3 id="hello" class="animate__animated animate__backInDown">Hi, My name is Anele Sokwane</h3>
+        <h3 id="hello" class="animate__animated animate__zoomInUp">Hi, My name is Anele Sokwane</h3>
         <!-- Find a typing animation for the home page -->
         
         <vue-particles
