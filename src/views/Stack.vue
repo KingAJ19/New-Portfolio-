@@ -20,18 +20,18 @@
       </v-img>
     </v-card-text>
     <v-card-actions>
-      <v-btn
-        text
-        color="teal accent-4"
-        @click="reveal = true"
-      >
-        Learn More
-      </v-btn>
+        <v-btn
+          color="primary"
+          dark
+          @click="dialog = true"
+        >
+          Learn More
+        </v-btn>
     </v-card-actions>
 
     <v-expand-transition>
       <v-card
-        v-if="reveal"
+        v-if="dialog === true"
         class="transition-fast-in-fast-out v-card--reveal"
         style="height: 100%;"
       >
@@ -45,7 +45,7 @@
           <v-btn
             text
             color="teal accent-4"
-            @click="reveal = false"
+            @click="dialog = false"
           >
             Close
           </v-btn>
@@ -62,9 +62,11 @@
 
 <script>
   export default {
-    data: () => ({
-      reveal: false,
-    }),
+    data () {
+      return {
+        dialog: false,
+      }
+    },
   }
   // <v-card
   //   class="mx-auto"
