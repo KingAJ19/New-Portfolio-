@@ -62,7 +62,7 @@
         <v-btn
           color="primary"
           dark
-          @click="dialog = true"
+          @click="dialog2 = true"
         >
           Learn More
         </v-btn>
@@ -70,7 +70,7 @@
 
     <v-expand-transition>
       <v-card
-        v-if="dialog === true"
+        v-if="dialog2 === true"
         class="transition-fast-in-fast-out v-card--reveal"
         style="height: 100%;"
       >
@@ -84,7 +84,7 @@
           <v-btn
             text
             color="teal accent-4"
-            @click="dialog = false"
+            @click="dialog2 = false"
           >
             Close
           </v-btn>
@@ -108,7 +108,7 @@
         <v-btn
           color="primary"
           dark
-          @click="dialog = true"
+          @click="dialog3 = true"
         >
           Learn More
         </v-btn>
@@ -116,7 +116,7 @@
 
     <v-expand-transition>
       <v-card
-        v-if="dialog === true"
+        v-if="dialog3 === true"
         class="transition-fast-in-fast-out v-card--reveal"
         style="height: 100%;"
       >
@@ -130,7 +130,7 @@
           <v-btn
             text
             color="teal accent-4"
-            @click="dialog = false"
+            @click="dialog3 = false"
           >
             Close
           </v-btn>
@@ -153,7 +153,7 @@
         <v-btn
           color="primary"
           dark
-          @click="dialog = true"
+          @click="dialog4 = true"
         >
           Learn More
         </v-btn>
@@ -161,7 +161,7 @@
 
     <v-expand-transition>
       <v-card
-        v-if="dialog === true"
+        v-if="dialog4 === true"
         class="transition-fast-in-fast-out v-card--reveal"
         style="height: 100%;"
       >
@@ -175,7 +175,7 @@
           <v-btn
             text
             color="teal accent-4"
-            @click="dialog = false"
+            @click="dialog4 = false"
           >
             Close
           </v-btn>
@@ -194,6 +194,9 @@
     data () {
       return {
         dialog: false,
+        dialog2: false,
+        dialog3: false,
+        dialog4: false
       }
     },
   }
