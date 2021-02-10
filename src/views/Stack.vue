@@ -53,7 +53,7 @@
     max-width="344"
   >
     <v-card-text>
-      <v-img src="/vue.png"
+      <v-img src="/python.jpg"
               height="225"
               class="grey darken-4">
       </v-img>
@@ -76,9 +76,9 @@
       >
         <v-card-text class="pb-0">
           <p class="display-1 text--primary">
-            VueJS
+            Python
           </p>
-          <h3>I've been using Vue for the past 5 months. </h3>
+          <h3>I've been using Python for the past 5 months. </h3>
         </v-card-text>
         <v-card-actions class="pt-0">
           <v-btn
@@ -99,7 +99,7 @@
     max-width="344"
   >
     <v-card-text>
-      <v-img src="/vue.png"
+      <v-img src="/html.jpg"
               height="225"
               class="grey darken-4">
       </v-img>
@@ -122,9 +122,9 @@
       >
         <v-card-text class="pb-0">
           <p class="display-1 text--primary">
-            VueJS
+            HTML
           </p>
-          <h3>I've been using Vue for the past 5 months. </h3>
+          <h3>I've been using HTML for the past 5 months. </h3>
         </v-card-text>
         <v-card-actions class="pt-0">
           <v-btn
@@ -144,7 +144,7 @@
     max-width="344"
   >
     <v-card-text>
-      <v-img src="/vue.png"
+      <v-img src="/css.jpg"
               height="225"
               class="grey darken-4">
       </v-img>
@@ -167,9 +167,9 @@
       >
         <v-card-text class="pb-0">
           <p class="display-1 text--primary">
-            VueJS
+            CSS
           </p>
-          <h3>I've been using Vue for the past 5 months. </h3>
+          <h3>I've been using CSS for the past 5 months. </h3>
         </v-card-text>
         <v-card-actions class="pt-0">
           <v-btn
