@@ -3,7 +3,7 @@
   <br>
   <br>
   <v-row>
-    <v-col cols="12" md="6" sm="6" xs="9">
+    <v-col cols="12" md="6" sm="8" xs="9">
       <v-card
     class="mx-auto"
     max-width="344"
@@ -48,7 +48,7 @@
       </v-card>
     </v-expand-transition>
   </v-card>
-
+<br>
   <v-card
     class="mx-auto"
     max-width="344"
@@ -139,7 +139,7 @@
       </v-card>
     </v-expand-transition>
   </v-card>
-  
+  <br>
   <v-card
     class="mx-auto"
     max-width="344"
