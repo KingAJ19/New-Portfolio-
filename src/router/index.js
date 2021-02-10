@@ -35,11 +35,6 @@ const routes = [
     name: 'Testimonials',
     component: () => import('../views/Testimonials.vue')
   },
-  {
-    path: '/nav2',
-    name: 'Nav',
-    component: () => import('../views/Nav2.vue')
-  }
 ]
 
 const router = new VueRouter({
