@@ -1,7 +1,6 @@
 <template>
       <div class="home page">
         <h3 id="hello" class="animate__animated animate__zoomInUp">Hi, My name is Anele Sokwane</h3>
-        <!-- Find a typing animation for the home page -->
         
         <vue-particles
         color="#dedede"
@@ -40,6 +39,9 @@
   text-align:center;
   align-items: center;
 }
+/* #hello:hover{
+  color: black;
+} */
 
 @media screen and (max-width: 320px){
   #hello {
