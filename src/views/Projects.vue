@@ -54,15 +54,15 @@ import {mdbContainer, mdbRow, mdbCol} from 'mdbvue';
         data(){
     return{
       projects: [
-        { name: 'Calculator', description: 'A simple, fully functional calculator using HTML & CSS', avatar: './calculator.png', link: 'https://aneles-calculator.herokuapp.com', github: 'https://github.com/KingAJ19/Calculator' },
-        { name: '3D Soccer Player Slides', description: 'A slideshow of my favorite soccer players using JS, HTML & CSS', avatar: '/slides.png', link: 'https://soccer-player-slide.herokuapp.com', github: 'https://github.com/KingAJ19/3D-Soccer-Player-Slides' },
-        { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.png', link: 'https://javascript-todo-list-11.herokuapp.com', github: 'https://github.com/KingAJ19/Javascript-Todo-List' },
-        { name: 'My Anime Site', description: 'A website with my anime lists and rankings', avatar: '/anime.jpg', link: 'https://aneles-anime-webpage.herokuapp.com', github: 'https://github.com/KingAJ19/My-Anime-Site' },
-        { name: 'Anime Typing Game', description: 'A charcater typing game made with Bootstrap and JS', avatar: './typing.jpg', link: 'https://anime-typing-game.herokuapp.com', github: 'https://github.com/KingAJ19/Anime-Character-Typing-Game' },
-        { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoes.jpg', link: 'https://nike-product-card.herokuapp.com', github: 'https://github.com/KingAJ19/Nike-Product-Card' },
-        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pikachu.png', link: 'https://pokemon-api-app-1.herokuapp.com', github: 'https://github.com/KingAJ19/Pokemon-API' },
-        { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.jpg', link: 'https://lineage-media.herokuapp.com', github: 'https://github.com/KingAJ19/Lineage-Media' },
-        { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './bag.png', link: 'https://punching-bag-game.herokuapp.com', github: 'https://github.com/KingAJ19/VueJS-PunchingBag'}
+        { name: 'Calculator', description: 'A simple, fully functional calculator using HTML & CSS', avatar: './calculator.gif', link: 'https://aneles-calculator.herokuapp.com', github: 'https://github.com/KingAJ19/Calculator' },
+        { name: '3D Soccer Player Slides', description: 'A slideshow of my favorite soccer players using JS, HTML & CSS', avatar: '/soccer.gif', link: 'https://soccer-player-slide.herokuapp.com', github: 'https://github.com/KingAJ19/3D-Soccer-Player-Slides' },
+        { name: 'Javascript Todo List', description: 'A simple todo list using JavaScript', avatar: '/todo.gif', link: 'https://javascript-todo-list-11.herokuapp.com', github: 'https://github.com/KingAJ19/Javascript-Todo-List' },
+        { name: 'My Anime Site', description: 'A website with my anime lists and rankings', avatar: '/ryuuk.gif', link: 'https://aneles-anime-webpage.herokuapp.com', github: 'https://github.com/KingAJ19/My-Anime-Site' },
+        { name: 'Anime Typing Game', description: 'A charcater typing game made with Bootstrap and JS', avatar: './typing.gif', link: 'https://anime-typing-game.herokuapp.com', github: 'https://github.com/KingAJ19/Anime-Character-Typing-Game' },
+        { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoe.gif', link: 'https://nike-product-card.herokuapp.com', github: 'https://github.com/KingAJ19/Nike-Product-Card' },
+        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pokemon.gif', link: 'https://pokemon-api-app-1.herokuapp.com', github: 'https://github.com/KingAJ19/Pokemon-API' },
+        { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.gif', link: 'https://lineage-media.herokuapp.com', github: 'https://github.com/KingAJ19/Lineage-Media' },
+        { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './punch.gif', link: 'https://punching-bag-game.herokuapp.com', github: 'https://github.com/KingAJ19/VueJS-PunchingBag'}
         
       ]
     }

@@ -6,8 +6,16 @@
       <div class="timeline-main">
          <div class='timeline-row'>
             <div class="timeline-box">
-               <h6><b>2018</b></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
+               <h5><b>1</b></h5>
+               <p class="animate__animated animate__zoomInUp">My name is <i>Anele Sokwane</i>. I am a Junior Web Developer.</p>
+            </div>
+            <div class="timeline-box">
+               <h5><b>2</b></h5>
+               <p class="animate__animated animate__backInDown">I am 18 years old. I enjoy <i>Frontend Development</i> and creating Web Interfaces.</p>
+            </div>
+            <div class="timeline-box">
+               <h5><b>3</b></h5>
+               <p class="animate__animated animate__backInRight">I'm a <i>South African</i> citizen. I live in MeltonRose, Eersteriver. </p>
             </div>
             <div class='horizontal-line'></div>
             <div class='verticle-line'></div>
@@ -16,16 +24,16 @@
          </div>
          <div class='timeline-row'>
             <div class="timeline-box">
-               <h6><b>2019</b></h6>
-               <p><b>Matriculated with a Bachelor's Degree from Tuscany Glen High School.</b></p>
+               <h5><b>4</b></h5>
+               <p class="animate__animated animate__bounceInLeft">I matriculated with a Bachelor's Degree from Tuscany Glen High School in 2019.</p>
             </div>
             <div class="timeline-box">
-               <h6><b>2020</b></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
+               <h5><b>5</b></h5>
+               <p class="animate__animated animate__fadeInBottomLeft">I am very hard-working and passionate. Ever since I was young, I always loved computers and working with them. I am very dedicated to getting better and developing my skills.</p>
             </div>
             <div class="timeline-box">
-               <h6><b>2021</b></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
+               <h5><b>6</b></h5>
+               <p class="animate__animated animate__fadeInLeft">My hobbies are drawing, playing basketball, making videos, rapping and watching anime.</p>
             </div>
             <div class='horizontal-line'></div>
             <div class='verticle-line'></div>
@@ -34,7 +42,7 @@
          </div>
          <div class="timeline-row">
             <div class="timeline-box">
-               <h6>Today</h6>
+               <h5>.....</h5>
             </div>
          </div>
       </div>
@@ -44,6 +52,8 @@
 </template>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -131,7 +141,7 @@ body {
    width: 76%;
 }
 
-.timeline-row:first-child .timeline-box:first-child h6::after {
+.timeline-row:first-child .timeline-box:first-child h5::after {
    width: 120%;
    height: 120%;
    content: "";
@@ -146,13 +156,13 @@ body {
    -webkit-transform: translate(-50%, -50%);
 }
 
-.timeline-row:first-child .timeline-box:first-child h6 {
+.timeline-row:first-child .timeline-box:first-child h5 {
    background-color: #c81212;
    border: 10px solid #fff;
    color: #fff;
 }
 
-.timeline-box h6 {
+.timeline-box h5 {
    position: relative;
    color: #c81212;
    border: 2px solid #e5e5e5;
@@ -168,10 +178,12 @@ body {
 
 .timeline-box p {
    background-color: #f7f7f7;
+   /* Change the font style here */
+   font-family: 'New Rocker', cursive;
    padding: 33px 40px;
-   font-size: 16px;
+   font-size: 19px;
    color: #000000;
-   font-weight: 400;
+   font-weight: 330;
    line-height: 1.6;
    width: 65%;
    margin: 24px 0 0 50px;
@@ -223,7 +235,7 @@ body {
    z-index: 1;
 }
 
-.timeline-row:last-child .timeline-box h6 {
+.timeline-row:last-child .timeline-box h5 {
    font-size: 15px;
    text-transform: uppercase;
    color: #fff;
@@ -334,7 +346,7 @@ body {
    h5 {
       font-size: 30px;
    }
-   h6 {
+   h5 {
       font-size: 24px;
    }
    p,
@@ -345,7 +357,7 @@ body {
       width: 80%;
       padding: 30px;
    }
-   .timeline-box h6 {
+   .timeline-box h5 {
       width: 100px;
       height: 100px;
       margin-top: -50px;
@@ -374,14 +386,14 @@ body {
    h5 {
       font-size: 26px;
    }
-   h6 {
+   h5 {
       font-size: 21px;
    }
    p,
    li {
       font-size: 18px;
    }
-   .timeline-box h6 {
+   .timeline-box h5 {
       width: 90px;
       height: 90px;
       margin-top: -46px;
@@ -416,7 +428,7 @@ body {
       right: 4%;
       left: initial;
    }
-   .timeline-row:last-child .timeline-box h6 {
+   .timeline-row:last-child .timeline-box h5 {
       margin-top: -41px;
    }
 }
@@ -437,7 +449,7 @@ body {
    h5 {
       font-size: 24px;
    }
-   h6 {
+   h5 {
       font-size: 20px;
    }
    .timeline-sec {
@@ -447,7 +459,7 @@ body {
       padding: 20px;
       font-size: 14px;
    }
-   .timeline-box h6 {
+   .timeline-box h5 {
       width: 84px;
       height: 84px;
       margin-top: -42px;
@@ -467,7 +479,7 @@ body {
       width: 30px;
       height: 30px;
    }
-   .timeline-row:last-child .timeline-box h6 {
+   .timeline-row:last-child .timeline-box h5 {
       margin-top: -35px;
       font-size: 14px;
       width: 70px;
@@ -491,7 +503,7 @@ body {
    h5 {
       font-size: 22px;
    }
-   h6 {
+   h5 {
       font-size: 18px;
    }
    p,
@@ -536,7 +548,7 @@ body {
    .timeline-row:nth-child(2n+2) .timeline-box {
       width: 100%;
    }
-   .timeline-box h6 {
+   .timeline-box h5 {
       width: 80px;
       height: 80px;
       margin-top: 0;
@@ -547,7 +559,7 @@ body {
       width: 41%;
       margin: -40px 0 0 0;
    }
-   .timeline-row:last-child .timeline-box h6 {
+   .timeline-row:last-child .timeline-box h5 {
       margin-top: 0;
       font-size: 13px;
       width: 66px;
@@ -638,7 +650,7 @@ body {
    h5 {
       font-size: 20px;
    }
-   h6 {
+   h5 {
       font-size: 16px;
    }
    p,
@@ -648,11 +660,11 @@ body {
    .timeline-sec {
       padding: 0px 0 70px 0;
    }
-   .timeline-box h6 {
+   .timeline-box h5 {
       width: 70px;
       height: 70px;
    }
-   .timeline-row:last-child .timeline-box h6 {
+   .timeline-row:last-child .timeline-box h5 {
       font-size: 12px;
       width: 60px;
       height: 60px;
@@ -686,7 +698,7 @@ body {
    h5 {
       font-size: 18px;
    }
-   h6 {
+   h5 {
       font-size: 16px;
    }
    p,
@@ -696,7 +708,7 @@ body {
    .timeline-sec {
       padding: 0px 0 60px 0;
    }
-   .timeline-box h6 {
+   .timeline-box h5 {
       margin: 0;
    }
    .verticle-line,
@@ -768,7 +780,7 @@ body {
    h5 {
       font-size: 16px;
    }
-   h6 {
+   h5 {
       font-size: 15px;
    }
    .timeline-box p,
@@ -796,7 +808,7 @@ body {
    h5 {
       font-size: 13px;
    }
-   h6 {
+   h5 {
       font-size: 13px;
    }
    .timeline-box p,
