@@ -6,15 +6,15 @@
       <div class="timeline-main">
          <div class='timeline-row'>
             <div class="timeline-box">
+               <h6><b>2016</b></h6>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
+            </div>
+            <div class="timeline-box">
+               <h6><b>2017</b></h6>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
+            </div>
+            <div class="timeline-box">
                <h6><b>2018</b></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
-            </div>
-            <div class="timeline-box">
-               <h6><b>2015</b></h6>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
-            </div>
-            <div class="timeline-box">
-               <h6><b>2010</b></h6>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
             </div>
             <div class='horizontal-line'></div>
@@ -24,15 +24,15 @@
          </div>
          <div class='timeline-row'>
             <div class="timeline-box">
-               <h6><b>1998</b></h6>
+               <h6><b>2019</b></h6>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
             </div>
             <div class="timeline-box">
-               <h6><b>1998</b></h6>
+               <h6><b>2020</b></h6>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
             </div>
             <div class="timeline-box">
-               <h6><b>1983</b></h6>
+               <h6><b>2021</b></h6>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue justo, rhoncus non ultricies non, sagittis ut nisl. Nullam malesuada aliquam leo, eu porttitor ex maximus commodo.</p>
             </div>
             <div class='horizontal-line'></div>
