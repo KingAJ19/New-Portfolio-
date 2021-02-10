@@ -65,8 +65,44 @@
 }
 @media screen and (max-width: 320px){
   #hello {
-    top: 150px;
+    top: 120px;
+    left: 0;
     font-size: 50px;
+  }
+}
+@media screen and (max-width: 376px){
+  #hello {
+    top: 150px;
+    left: 0;
+    font-size: 53px;
+  }
+}
+@media screen and (max-width: 426px){
+  #hello {
+    top: 150px;
+    left: 0;
+    font-size: 56px;
+  }
+}
+@media screen and (max-width: 769px){
+  #hello {
+    top: 170px;
+    left: 7%;
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 1025px){
+  #hello {
+    top: 190px;
+    left: 7%;
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 1441px){
+  #hello {
+    top: 190px;
+    left: 7%;
+    font-size: 66px;
   }
 }
 .particles-js {
