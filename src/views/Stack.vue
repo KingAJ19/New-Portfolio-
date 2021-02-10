@@ -263,7 +263,7 @@
           <h3>I've been using React for the past 5 months. </h3>
         </v-card-text>
         <v-card-actions class="pt-0">
-          <v-btn
+          <v-btn 
             text
             color="teal accent-4"
             @click="dialog6 = false"
