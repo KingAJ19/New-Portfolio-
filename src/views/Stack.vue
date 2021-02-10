@@ -1,7 +1,6 @@
 <template>
 <div class="stack page">
   <br>
-  <br>
   <v-row>
     <v-col cols="12" md="6" sm="8" xs="9">
       <v-card
