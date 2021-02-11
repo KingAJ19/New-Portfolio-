@@ -30,10 +30,10 @@
         style="height: 100%;"
       >
         <v-card-text class="pb-0">
-          <p class="display-1 text--primary">
-            VueJS
+          <p class="display-1" id="vue">
+            Vue
           </p>
-          <h3>I've been using Vue for the past 5 months. </h3>
+          <h3>I've been using Vue for the past 5 months. It has become one of my favourite Javascript frameworks to use and it was easy to learn.</h3>
         </v-card-text>
         <v-card-actions class="pt-0">
           <v-btn
@@ -351,5 +351,8 @@
   opacity: 1 !important;
   position: absolute;
   width: 100%;
+}
+#vue{
+  color: teal;
 }
 </style>
