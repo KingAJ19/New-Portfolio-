@@ -34,7 +34,7 @@ export default {
                 drawer: false,
                 links: [
                 { text: 'Home', icon: 'mdi-home-city', route: '/' },
-                { text: 'About', icon: 'mdi-account', route: '/about' },
+                { text: 'About', icon: 'mdi-help', route: '/about' },
                 { text: 'Stack', icon: 'mdi-web', route: '/stack' },
                 { text: 'Projects', icon: 'mdi-folder', route: '/projects' },
                 { text: 'Testimonials', icon: 'mdi-chat', route: '/testimonials'},
