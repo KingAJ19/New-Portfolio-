@@ -50,7 +50,9 @@
 </section>
 <br>
 <br>
-
+  <!-- <center>
+     <v-img src="/Anele.jpg" height="180" class="grey darken-4"></v-img>
+  </center> -->
    </div>
 </template>
 <style scoped>
