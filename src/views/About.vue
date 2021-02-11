@@ -42,7 +42,7 @@
          </div>
          <div class="timeline-row">
             <div class="timeline-box">
-               <h5>.....</h5>
+               <h5><mdb-icon far icon="check-circle" /></h5>
             </div>
          </div>
       </div>
@@ -51,7 +51,13 @@
 <br>
 <br>
   <!-- <center>
-     <v-img src="/Anele.jpg" height="180" class="grey darken-4"></v-img>
+     <v-avatar>
+      <img
+        src="/Anele.jpg"
+        alt="Anele"
+        size="600"
+      >
+    </v-avatar>
   </center> -->
    </div>
 </template>

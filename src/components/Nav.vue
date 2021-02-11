@@ -2,7 +2,7 @@
     <nav>
         <v-toolbar flat app id="app">
         <v-app-bar-nav-icon class="white--text" @click="drawer = !drawer">
-            <v-icon>mdi-menu</v-icon>
+            <v-icon>mdi-widgets</v-icon>
         </v-app-bar-nav-icon>
         <v-toolbar-title class="white--text">
             <span class="font-weight-bold">Anele Sokwane</span>
@@ -11,8 +11,7 @@
         
         </v-toolbar>
          <v-navigation-drawer app v-model="drawer" class="black">
-           <br>
-           <br>
+           <v-icon id="close" class="white--text" @click="drawer = !drawer">mdi-close</v-icon>
            <br>
            <v-list>
         <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
@@ -47,5 +46,10 @@ export default {
 <style scoped>
 #app{
   background-color: #919191;
+}
+#close{
+  font-size: 39px;
+  left: 212px;
+  margin-top: 2px;
 }
 </style>
