@@ -27,17 +27,7 @@
                 <a :href="project.github" target="_blank">GitHub</a>
               </v-btn>
               </mdb-col>
-             </mdb-row>`
-              <!-- <v-card-actions>
-               <v-btn text color="blue">
-                <v-icon small left>mdi-folder</v-icon>
-                <a :href="project.link" target="_blank">Demo</a>
-              </v-btn>
-              <v-btn text color="blue">
-                <v-icon small left>mdi-folder</v-icon>
-                <a :href="project.github" target="_blank">GitHub</a>
-              </v-btn>
-            </v-card-actions> -->
+             </mdb-row>
             </mdb-container>
           </v-card>
         </v-flex>
