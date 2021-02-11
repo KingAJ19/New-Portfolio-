@@ -15,7 +15,7 @@
     </v-card-text>
     <v-card-actions>
         <v-btn
-          color="primary"
+          color="teal"
           dark
           @click="dialog = true"
         >
@@ -60,7 +60,7 @@
     </v-card-text>
     <v-card-actions>
         <v-btn
-          color="primary"
+          color="#FFE873"
           dark
           @click="dialog2 = true"
         >
@@ -83,7 +83,7 @@
         <v-card-actions class="pt-0">
           <v-btn
             text
-            color="teal accent-4"
+            color="#FFE873"
             @click="dialog2 = false"
           >
             Close
@@ -106,7 +106,7 @@
     </v-card-text>
     <v-card-actions>
         <v-btn
-          color="primary"
+          color="warning"
           dark
           @click="dialog3 = true"
         >
@@ -129,7 +129,7 @@
         <v-card-actions class="pt-0">
           <v-btn
             text
-            color="teal accent-4"
+            color="warning"
             @click="dialog3 = false"
           >
             Close
@@ -151,7 +151,7 @@
     </v-card-text>
     <v-card-actions>
         <v-btn
-          color="primary"
+          color="primary accent-4"
           dark
           @click="dialog4 = true"
         >
@@ -174,7 +174,7 @@
         <v-card-actions class="pt-0">
           <v-btn
             text
-            color="teal accent-4"
+            color="primary accent-4"
             @click="dialog4 = false"
           >
             Close
@@ -197,7 +197,8 @@
     </v-card-text>
     <v-card-actions>
         <v-btn
-          color="primary"
+          color="yellow"
+          class="white--text text--darken-5"
           dark
           @click="dialog5 = true"
         >
@@ -220,7 +221,7 @@
         <v-card-actions class="pt-0">
           <v-btn
             text
-            color="teal accent-4"
+            color="yellow"
             @click="dialog5 = false"
           >
             Close
@@ -242,7 +243,7 @@
     </v-card-text>
     <v-card-actions>
         <v-btn
-          color="primary"
+          color="black"
           dark
           @click="dialog6 = true"
         >
@@ -265,7 +266,7 @@
         <v-card-actions class="pt-0">
           <v-btn 
             text
-            color="teal accent-4"
+            color="black"
             @click="dialog6 = false"
           >
             Close
@@ -290,7 +291,7 @@
     </v-card-text>
     <v-card-actions>
         <v-btn
-          color="primary"
+          color="green"
           dark
           @click="dialog8 = true"
         >
@@ -313,7 +314,7 @@
         <v-card-actions class="pt-0">
           <v-btn 
             text
-            color="teal accent-4"
+            color="green"
             @click="dialog8 = false"
           >
             Close
