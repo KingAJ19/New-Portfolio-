@@ -1,8 +1,7 @@
 <template lang="html">
-  <div>
   <mdb-container class="mt-5">
     <mdb-card>
-      <mdb-card-title class="mt-4 h2">Contact Me!</mdb-card-title>
+      <mdb-card-title class="mt-4 h2">Contact Me</mdb-card-title>
       <mdb-card-body>
         <mdb-card-text
           class="pr-5 pl-5"
@@ -64,8 +63,8 @@
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="p-2 fa-lg w-ic" href="https://za.linkedin.com/in/anele-sokwane-49baa919a" target="_blank">
-                   <i class="fab fa-linkedin-in fa-2x"></i>
+                  <a class="p-2 fa-lg w-ic" href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
+                   <i class="fab fa-youtube fa-2x"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
@@ -82,7 +81,6 @@
       </mdb-card-body>
     </mdb-card>
   </mdb-container>
-  </div>
 </template>
 <script>
   import {
@@ -142,5 +140,6 @@
 <style>
 .container {
     text-align: center;
+    /* outline: none !important; */
 }
 </style>
