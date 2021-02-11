@@ -3,7 +3,7 @@
     <v-container class="my-6">   
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 v-for="testimonial in testimonials" :key="testimonial.name">
-          <v-card height="95%" text class="text-center ma-3">
+          <v-card height="95%" text class="text-center ma-3 animate__animated animate__flipInY">
             <v-responsive class="pt-4">
               <v-avatar size="140"> 
                 <img :src="testimonial.avatar">
