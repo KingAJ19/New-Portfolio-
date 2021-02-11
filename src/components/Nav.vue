@@ -13,6 +13,7 @@
          <v-navigation-drawer app v-model="drawer" class="black">
            <v-icon id="close" class="white--text" @click="drawer = !drawer">mdi-close</v-icon>
            <br>
+           <br>
            <v-list>
         <v-list-item v-for="link in links" :key="link.text" router :to="link.route">
           <v-list-item-action>
