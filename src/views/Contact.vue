@@ -13,14 +13,15 @@
             <mdb-col md="8">
               <mdb-row>
                 <mdb-col>
-                  <mdb-input label="Name" v-model="fields.name" required />
-                  <mdb-input label="Surname" v-model="fields.surname" required />
-                  <mdb-input label="Email" v-model="fields.email" required />
+                  <mdb-input class="animate__animated animate__lightSpeedInLeft" label="Name" v-model="fields.name" required />
+                  <mdb-input class="animate__animated animate__lightSpeedInRight" label="Surname" v-model="fields.surname" required />
+                  <mdb-input class="animate__animated animate__rollIn" label="Email" v-model="fields.email" required />
                 </mdb-col>
               </mdb-row>
               <mdb-row>
                 <mdb-col>
                   <mdb-input
+                    class="animate__animated animate__zoomInUp"
                     type="textarea"
                     label="Your message"
                     v-model="fields.message"
@@ -59,22 +60,22 @@
               <ul class="list-inline text-center list-unstyled">
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://twitter.com/anelesokwane19" target="_blank">
-                    <i class="fab fa-twitter fa-2x"></i>
+                    <i class="fab fa-twitter fa-2x animate__animated animate__bounceInUp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
-                   <i class="fab fa-youtube fa-2x"></i>
+                   <i class="fab fa-youtube fa-2x animate__animated animate__bounceInUp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://www.instagram.com/anele_sokwane/?hl=en" target="_blank">
-                    <i class="fab fa-instagram fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x animate__animated animate__bounceInUp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
                   <a class="p-2 fa-lg w-ic" href="https://github.com/KingAJ19" target="_blank">
-                    <i class="fab fa-github fa-2x"></i>
+                    <i class="fab fa-github fa-2x animate__animated animate__bounceInUp"></i>
                   </a>
                 </li>
               </ul>
