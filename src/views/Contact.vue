@@ -1,10 +1,10 @@
 <template lang="html">
   <mdb-container class="mt-5">
     <mdb-card>
-      <mdb-card-title class="mt-4 h2">Contact Me</mdb-card-title>
+      <mdb-card-title class="mt-4 h2 animate__animated animate__flipInX">Contact Me</mdb-card-title>
       <mdb-card-body>
         <mdb-card-text
-          class="pr-5 pl-5"
+          class="pr-5 pl-5 animate__animated animate__flipInX"
           mr-6
           ml-6
         >Please do not hesitate to contact me directly.</mdb-card-text>
@@ -32,19 +32,19 @@
             <mdb-col md="4">
               <mdb-row>
                 <mdb-col class="mt-4">
-                  <mdb-icon icon="map-marker-alt" size="2x" />
+                  <mdb-icon class="animate__animated animate__fadeInDownBig" icon="map-marker-alt" size="2x" />
                   <p>Cape Town, Western Cape</p>
                 </mdb-col>
               </mdb-row>
               <mdb-row>
                 <mdb-col class="mt-4">
-                  <mdb-icon icon="phone" size="2x" />
+                  <mdb-icon class="animate__animated animate__fadeInDownBig" icon="phone" size="2x" />
                   <p>081 553 9120</p>
                 </mdb-col>
               </mdb-row>
               <mdb-row>
                 <mdb-col class="mt-4">
-                  <mdb-icon icon="envelope" size="2x" />
+                  <mdb-icon class="animate__animated animate__fadeInDownBig" icon="envelope" size="2x" />
                   <p>anelesokwane@gmail.com</p>
                 </mdb-col>
               </mdb-row>
