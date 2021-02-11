@@ -4,7 +4,7 @@
   <v-row>
     <v-col cols="12" md="4" sm="6" xs="9">
       <v-card
-    class="mx-auto animate__animated animate__flipInX"
+    class="mx-auto animate__animated animate__backInUp"
     max-width="344"
   >
     <v-card-text>
@@ -49,7 +49,7 @@
   </v-card>
 <br>
   <v-card
-    class="mx-auto animate__animated animate__shakeX"
+    class="mx-auto animate__animated animate__backInUp"
     max-width="344"
   >
     <v-card-text>
@@ -95,7 +95,7 @@
     </v-col>
     <v-col cols="12" md="4" sm="6" xs="9">
       <v-card
-    class="mx-auto animate__animated animate__shakeY"
+    class="mx-auto animate__animated animate__backInUp"
     max-width="344"
   >
     <v-card-text>
@@ -140,7 +140,7 @@
   </v-card>
   <br>
   <v-card
-    class="mx-auto animate__animated animate__fadeInLeft"
+    class="mx-auto animate__animated animate__backInUp"
     max-width="344"
   >
     <v-card-text>
@@ -186,7 +186,7 @@
     </v-col>
     <v-col cols="12" md="4" sm="6" xs="9">
       <v-card
-    class="mx-auto animate__animated animate__rollIn"
+    class="mx-auto animate__animated animate__backInUp"
     max-width="344"
   >
     <v-card-text>
@@ -232,7 +232,7 @@
   </v-card>
   <br>
   <v-card
-    class="mx-auto animate__animated animate__zoomInLeft"
+    class="mx-auto animate__animated animate__backInUp"
     max-width="344"
   >
     <v-card-text>
@@ -280,7 +280,7 @@
   
   <br>
   <v-card
-    class="mx-auto animate__animated animate__lightSpeedInLeft"
+    class="mx-auto animate__animated animate__backInUp"
     max-width="344"
   >
     <v-card-text>
