@@ -33,11 +33,11 @@ export default {
             return{
                 drawer: false,
                 links: [
-                { text: 'Home', icon: 'mdi-home-city', route: '/' },
+                { text: 'Home', icon: 'mdi-home', route: '/' },
                 { text: 'About', icon: 'mdi-help', route: '/about' },
-                { text: 'Stack', icon: 'mdi-web', route: '/stack' },
+                { text: 'Stack', icon: 'mdi-laptop', route: '/stack' },
                 { text: 'Projects', icon: 'mdi-folder', route: '/projects' },
-                { text: 'Testimonials', icon: 'mdi-chat', route: '/testimonials'},
+                { text: 'Testimonials', icon: 'mdi-forum', route: '/testimonials'},
                 { text: 'Contact', icon: 'mdi-account-box', route: '/contact' }
         ],
             }
