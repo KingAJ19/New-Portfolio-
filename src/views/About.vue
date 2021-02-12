@@ -62,7 +62,7 @@
         src="/Sokwane.png"
         alt="Anele"
       >
-    </v-avatar>
+    </v-avatar> 
     </template>
     <span>A picture of me</span>
     </v-tooltip>
