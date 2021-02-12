@@ -42,7 +42,7 @@
          </div>
          <div class="timeline-row">
             <div class="timeline-box">
-               <h5><mdb-icon far icon="check-circle" /></h5>
+               <h5>&#128526;</h5>
             </div>
          </div>
       </div>
@@ -54,7 +54,7 @@
        <v-tooltip top>
        <template v-slot:activator="{ on, attrs }"> 
     <v-avatar
-      size="156"
+      size="176"
       v-bind="attrs"
        v-on="on"
     >
