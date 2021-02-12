@@ -50,15 +50,23 @@
 </section>
 <br>
 <br>
-  <!-- <center>
-     <v-avatar>
+   <center>
+       <v-tooltip top>
+       <template v-slot:activator="{ on, attrs }"> 
+    <v-avatar
+      size="156"
+      v-bind="attrs"
+       v-on="on"
+    >
       <img
-        src="/Anele.jpg"
+        src="/Sokwane.png"
         alt="Anele"
-        size="600"
       >
     </v-avatar>
-  </center> -->
+    </template>
+    <span>A picture of me</span>
+    </v-tooltip>
+  </center>
    </div>
 </template>
 <style scoped>
