@@ -42,7 +42,7 @@
          </div>
          <div class="timeline-row">
             <div class="timeline-box">
-               <h5><mdb-icon far icon="check-circle" /></h5>
+               <h5>&#128526;</h5>
             </div>
          </div>
       </div>
@@ -50,15 +50,23 @@
 </section>
 <br>
 <br>
-  <!-- <center>
-     <v-avatar>
+   <center>
+       <v-tooltip top>
+       <template v-slot:activator="{ on, attrs }"> 
+    <v-avatar
+      size="176"
+      v-bind="attrs"
+       v-on="on"
+    >
       <img
-        src="/Anele.jpg"
+        src="/Sokwane.png"
         alt="Anele"
-        size="600"
       >
-    </v-avatar>
-  </center> -->
+    </v-avatar> 
+    </template>
+    <span>A picture of me</span>
+    </v-tooltip>
+  </center>
    </div>
 </template>
 <style scoped>

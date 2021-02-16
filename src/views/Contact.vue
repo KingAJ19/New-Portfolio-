@@ -64,7 +64,7 @@
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a class="p-2 fa-lg w-ic" href="https://www.youtube.com/channel/UC1Wr5ovgllU0JZXdx8YXhiQ" target="_blank">
+                  <a class="p-2 fa-lg w-ic" href="https://www.youtube.com/c/AneleSokwane" target="_blank">
                    <i class="fab fa-youtube fa-2x animate__animated animate__bounceInUp"></i>
                   </a>
                 </li>

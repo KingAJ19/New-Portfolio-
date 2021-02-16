@@ -1,6 +1,6 @@
 <template>
       <div class="home page">
-        <!-- <h3 id="hello" class="animate__animated animate__zoomInDown">Hi, My name is Anele Sokwane</h3> -->
+         <h3 id="hello" class="animate__animated animate__zoomInDown">Hi, My name is Anele Sokwane</h3>
         
         <vue-particles
         color="#dedede"
