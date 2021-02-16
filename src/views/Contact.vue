@@ -125,8 +125,6 @@
     methods: {
       submitForm(event) {
         event.target.classList.add("was-validated")
-        // window.location.href = "mailto:anelesokwane@gmail.com";
-        // window.open('mailto:anelesokwane@gmail.com?subject=subject&body=body');
       },
       sendEmail(){
         if (this.fields.length === 0){
@@ -141,6 +139,5 @@
 <style>
 .container {
     text-align: center;
-    /* outline: none !important; */
 }
 </style>
