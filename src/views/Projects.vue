@@ -3,7 +3,7 @@
     <v-container class="my-6">
       <v-layout row wrap>
         <v-flex xs12 sm6 md4 lg3 v-for="project in projects" :key="project.name" link :to="project.github + project.link">
-          <v-card height="96%" width="auto" text class="text-center ma-3 animate__animated animate__backInLeft">
+          <v-card height="96%" width="auto" text class="text-center ma-3 animate__animated animate__rollIn">
             <v-responsive class="pt-4">
               <v-avatar size="130"> 
                 <img :src="project.avatar">
