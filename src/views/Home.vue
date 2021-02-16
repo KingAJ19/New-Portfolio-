@@ -1,7 +1,20 @@
 <template>
       <div class="home page">
-         <h3 id="hello" class="animate__animated animate__zoomInDown">Hi, My name is Anele Sokwane</h3>
-        
+          <vue-typer
+  id="hello"
+  :text='["My name is Anele Sokwane","I am a Junior Developer"]'
+  :repeat='Infinity'
+  :shuffle='false'
+  initial-action='erasing'
+  :pre-type-delay='90'
+  :type-delay='90'
+  :pre-erase-delay='1000'
+  :erase-delay='320'
+  erase-style='backspace'
+  :erase-on-complete='false'
+  caret-animation='blink'
+        ></vue-typer>
+         
         <vue-particles
         color="#dedede"
         :particleOpacity="0.9"
@@ -21,34 +34,36 @@
         class="particles-js"
       >
       <canvas class="particles-js-canvas-el" width="935" height="833" style="width: 100%; height: 100%;">
-        
       </canvas>
       </vue-particles>
       </div>
 </template>
 
-<style scoped>
+<style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 #hello {
   position:absolute;
-  /* top: 20px; */
   left:0;
-  color: #fff;
   z-index: 1;
+  font-size: 20px;
   font-family: 'Amatic SC', cursive;
   text-align:center;
   align-items: center;
+ 
 }
-/* #hello:hover{
-  color: black;
-} */
-
 @media screen and (max-width: 320px){
   #hello {
     top: 40px;
     left: 0;
-    font-size: 30px;
+    font-size: 22px;
   }
+}
+.vue-typer .custom.char.typed {
+  color: #fff !important;
+}
+.vue-typer{
+  font-size: 60px !important;
+  font-weight: bold;
 }
 @media screen and (max-width: 376px){
   #hello {
@@ -83,6 +98,14 @@
     top: 180px;
     left: 7%;
     font-size: 69px;
+  }
+    
+}
+@media screen and (max-width: 2561px){
+  #hello {
+    top: 180px;
+    left: 7%;
+    font-size: 72px;
   }
 }
 .particles-js {

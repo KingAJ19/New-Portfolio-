@@ -26,6 +26,7 @@
     "vue-router": "^3.2.0",
     "vue-simple-progress": "^1.1.1",
     "vue-toast-notification": "^0.6.0",
+    "vue-typed-js": "^0.1.2",
     "vue-typer": "^1.2.0",
     "vuetify": "^2.2.11"
   },
