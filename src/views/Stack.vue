@@ -44,6 +44,7 @@
             Close
           </v-btn>
         </v-card-actions>
+        <br>
       </v-card>
     </v-expand-transition>
   </v-card>
@@ -89,6 +90,7 @@
             Close
           </v-btn>
         </v-card-actions>
+        <br>
       </v-card>
     </v-expand-transition>
   </v-card>
@@ -135,6 +137,7 @@
             Close
           </v-btn>
         </v-card-actions>
+        <br>
       </v-card>
     </v-expand-transition>
   </v-card>
@@ -180,6 +183,7 @@
             Close
           </v-btn>
         </v-card-actions>
+        <br>
       </v-card>
     </v-expand-transition>
   </v-card>
@@ -227,6 +231,7 @@
             Close
           </v-btn>
         </v-card-actions>
+        <br>
       </v-card>
     </v-expand-transition>
   </v-card>
@@ -272,6 +277,7 @@
             Close
           </v-btn>
         </v-card-actions>
+        <br>
       </v-card>
     </v-expand-transition>
   </v-card>
@@ -320,6 +326,7 @@
             Close
           </v-btn>
         </v-card-actions>
+        <br>
       </v-card>
     </v-expand-transition>
   </v-card>
