@@ -12,7 +12,7 @@
   :erase-delay='200'
   erase-style='backspace'
   :erase-on-complete='false'
-  caret-animation='blink'
+  caret-animation='phase'
         ></vue-typer>
          
         <vue-particles
