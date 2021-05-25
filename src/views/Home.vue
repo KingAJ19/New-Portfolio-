@@ -7,7 +7,7 @@
   :shuffle='false'
   initial-action='erasing'
   :pre-type-delay='90'
-  :type-delay='10'
+  :type-delay='50'
   :pre-erase-delay='1000'
   :erase-delay='200'
   erase-style='backspace'
@@ -18,7 +18,7 @@
         <vue-particles
         color="#dedede"
         :particleOpacity="2"
-        :particlesNumber="860"
+        :particlesNumber="800"
         shapeType="edge"
         :particleSize="3.4"
         linesColor="#dedede"
@@ -26,7 +26,7 @@
         :lineLinked="true"
         :lineOpacity="0"
         :linesDistance="550"
-        :moveSpeed="13"
+        :moveSpeed="7"
         :hoverEffect="true"
         hoverMode="repulse"
         :clickEffect="true"
