@@ -202,7 +202,7 @@
           dark
           @click="dialog5 = true"
         >
-          Learn More
+          <p class="txt">Learn More</p>
         </v-btn>
     </v-card-actions>
 
@@ -351,6 +351,9 @@
   opacity: 1 !important;
   position: absolute;
   width: 100%;
+}
+.txt{
+  color: black;
 }
 #vue{
   color: teal;

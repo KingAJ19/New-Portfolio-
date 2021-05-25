@@ -7,7 +7,7 @@
          <div class='timeline-row'>
             <div class="timeline-box">
                <h5><b>1</b></h5>
-               <p class="animate__animated animate__zoomInUp">My name is <i>Anele Sokwane</i>. I am a Junior Web Developer.</p>
+               <p class="animate__animated animate__zoomInUp">My name is <i>Anele Sokwane</i>. I am an Aspiring Web Developer.</p>
             </div>
             <div class="timeline-box">
                <h5><b>2</b></h5>
@@ -25,7 +25,7 @@
          <div class='timeline-row'>
             <div class="timeline-box">
                <h5><b>4</b></h5>
-               <p class="animate__animated animate__bounceInLeft">I matriculated with a Bachelor's Degree from Tuscany Glen High School in 2019.</p>
+               <p class="animate__animated animate__bounceInLeft">I matriculated with a Bachelor's from Tuscany Glen High School in 2019.</p>
             </div>
             <div class="timeline-box">
                <h5><b>5</b></h5>
@@ -41,14 +41,14 @@
             <div class='corner bottom'></div>
          </div>
          <div class="timeline-row">
-            <div class="timeline-box">
+            <!-- <div class="timeline-box">
                <h5>&#128526;</h5>
-            </div>
+            </div> -->
          </div>
       </div>
    </div>
 </section>
-<br>
+<!-- <br>
 <br>
    <center>
        <v-tooltip top>
@@ -66,7 +66,7 @@
     </template>
     <span>A picture of me</span>
     </v-tooltip>
-  </center>
+  </center> -->
    </div>
 </template>
 <style scoped>

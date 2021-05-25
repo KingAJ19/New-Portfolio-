@@ -7,18 +7,18 @@
             <v-responsive class="pt-4">
               <v-avatar size="140"> 
                 <img :src="testimonial.avatar">
-              </v-avatar>
+              </v-avatar> 
             </v-responsive>
             <v-card-text>
               <h2 class="heading font-weight-bold">{{ testimonial.name }}</h2>
               <div class="black--text">{{ testimonial.message }}</div>
             </v-card-text>
-            <v-card-actions>
+            <!-- <v-card-actions>
                <v-btn text color="purple">
                 <v-icon small left>mdi-instagram</v-icon>
                <a :href="testimonial.link" target="_blank">Instagram</a>
               </v-btn> 
-            </v-card-actions>
+            </v-card-actions> -->
           </v-card>
         </v-flex>
       </v-layout>

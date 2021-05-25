@@ -2,14 +2,14 @@
       <div class="home page">
           <vue-typer
   id="hello"
-  :text='["My name is Anele Sokwane","I am a Junior Developer"]'
+  :text='["My name is Anele Sokwane","I am an Aspiring Developer"]'
   :repeat='Infinity'
   :shuffle='false'
   initial-action='erasing'
   :pre-type-delay='90'
-  :type-delay='90'
+  :type-delay='10'
   :pre-erase-delay='1000'
-  :erase-delay='320'
+  :erase-delay='200'
   erase-style='backspace'
   :erase-on-complete='false'
   caret-animation='blink'
@@ -17,18 +17,18 @@
          
         <vue-particles
         color="#dedede"
-        :particleOpacity="0.9"
+        :particleOpacity="2"
         :particlesNumber="860"
-        shapeType="circle"
-        :particleSize="2"
+        shapeType="edge"
+        :particleSize="3.4"
         linesColor="#dedede"
         :linesWidth="0"
         :lineLinked="true"
         :lineOpacity="0"
         :linesDistance="550"
-        :moveSpeed="7"
+        :moveSpeed="13"
         :hoverEffect="true"
-        hoverMode="grab"
+        hoverMode="repulse"
         :clickEffect="true"
         clickMode="push"
         class="particles-js"

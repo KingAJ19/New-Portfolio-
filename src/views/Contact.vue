@@ -59,8 +59,8 @@
         <hr class="hr-light my-4"/>
               <ul class="list-inline text-center list-unstyled">
                 <li class="list-inline-item">
-                  <a class="p-2 fa-lg w-ic" href="https://twitter.com/anelesokwane19" target="_blank">
-                    <i class="fab fa-twitter fa-2x animate__animated animate__bounceInUp"></i>
+                  <a class="p-2 fa-lg w-ic" href="https://www.linkedin.com/in/anele-sokwane/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x animate__animated animate__bounceInUp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
