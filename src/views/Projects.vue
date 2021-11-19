@@ -50,7 +50,7 @@ import {mdbContainer, mdbRow, mdbCol} from 'mdbvue';
         { name: 'My Anime Site', description: 'A website with my anime lists and rankings', avatar: '/ryuuk.gif', link: 'https://aneles-anime-webpage.herokuapp.com', github: 'https://github.com/KingAJ19/Anime-Site' },
         { name: 'Anime Typing Game', description: 'A charcater typing game made with Bootstrap and JS', avatar: './typing.gif', link: 'https://anime-typing-game.herokuapp.com', github: 'https://github.com/KingAJ19/Anime-Character-Typing-Game' },
         { name: 'Nike Product Card', description: 'A simple Nike AirMax product card using HTML & CSS', avatar: './shoe.gif', link: 'https://nike-product-card.herokuapp.com', github: 'https://github.com/KingAJ19/Nike-Product-Card' },
-        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pokemon.gif', link: 'https://pokemon-api-app-1.herokuapp.com', github: 'https://github.com/KingAJ19/Pokemon-API' },
+        { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pokemon.gif', link: 'https://pokemon-api-app-1.herokuapp.com', github: 'https://github.com/KingAJ19/-Pokemon-API' },
         { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.gif', link: 'https://lineage-media.herokuapp.com', github: 'https://github.com/KingAJ19/Lineage-Media' },
         { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './punch.gif', link: 'https://punching-bag-game.herokuapp.com', github: 'https://github.com/KingAJ19/VueJS-PunchingBag'}
         
