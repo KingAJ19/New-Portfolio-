@@ -53,6 +53,7 @@ import {mdbContainer, mdbRow, mdbCol} from 'mdbvue';
         { name: 'Pokemon Api', description: 'Getting Pokemon data from the PokeAPI using JS, HTML & CSS', avatar: './pokemon.gif', link: 'https://pokemon-api-app-1.herokuapp.com', github: 'https://github.com/KingAJ19/-Pokemon-API' },
         { name: 'Muller Berry Site', description: 'An E-commerce site for Muller Berry clothing brand', avatar: './mb.gif', link: 'https://muller-berry-site.netlify.app', github: 'https://github.com/KingAJ19/Muller-Berrry' },
         { name: 'E-Commerce Store', description: 'An E-Commerce store made with ReactJS and CommerceJS', avatar: './shopping-cart.gif', link: 'https://aneles-store.netlify.app', github: 'https://github.com/KingAJ19/Aneles-Store'},
+        { name: 'New Anime Site', description: 'A new anime website made using HTML, CSS & Javascript', avatar: './naruto.gif', link: 'https://aneles-anime-website.netlify.app', github: 'https://github.com/KingAJ19/New-Anime-Site' },
         { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.gif', link: 'https://lineage-media.herokuapp.com', github: 'https://github.com/KingAJ19/Lineage-Media-' },
         { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './punch.gif', link: 'https://punching-bag-game.herokuapp.com', github: 'https://github.com/KingAJ19/VueJS-PunchingBag'}
         
