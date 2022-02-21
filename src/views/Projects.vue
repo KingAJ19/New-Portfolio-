@@ -55,7 +55,7 @@ import {mdbContainer, mdbRow, mdbCol} from 'mdbvue';
         { name: 'E-Commerce Store', description: 'An E-Commerce store made with ReactJS and CommerceJS', avatar: './shopping-cart.gif', link: 'https://aneles-store.netlify.app', github: 'https://github.com/KingAJ19/Aneles-Store'},
         { name: 'New Anime Site', description: 'A new anime website made using HTML, CSS & Javascript', avatar: './naruto.gif', link: 'https://aneles-anime-website.netlify.app', github: 'https://github.com/KingAJ19/New-Anime-Site' },
         { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.gif', link: 'https://lineage-media.herokuapp.com', github: 'https://github.com/KingAJ19/Lineage-Media-' },
-        { name: 'Todo List', description: 'A todo list made with React', avatar: './todo-list.gif', link: 'https://lineage-media.herokuapp.com', github: 'https://github.com/KingAJ19/React-Todo-List' },
+        { name: 'Todo List', description: 'A todo list made with React', avatar: './todo-list.gif', link: 'https://aneles-react-todo-list.netlify.app/', github: 'https://github.com/KingAJ19/React-Todo-List' },
         { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './punch.gif', link: 'https://punching-bag-game.herokuapp.com', github: 'https://github.com/KingAJ19/VueJS-PunchingBag'}
         
       ]
