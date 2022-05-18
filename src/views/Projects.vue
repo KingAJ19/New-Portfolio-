@@ -61,7 +61,8 @@ import {mdbContainer, mdbRow, mdbCol} from 'mdbvue';
         { name: 'Lineage Media', description: 'A website for Lineage Media made with Bootstrap, HTML & CSS', avatar: './lineage.gif', link: 'https://lineage-media.herokuapp.com', github: 'https://github.com/KingAJ19/Lineage-Media-' },
         { name: 'Facebook Clone', description: 'A Facebook UI clone made with HTML & CSS', avatar: './facebook.gif', link: 'https://aneles-facebook-clone.netlify.app', github: 'https://github.com/KingAJ19/Facebook-Clone' },
         { name: 'Todo List', description: 'A todo list made with React', avatar: './todo-list.gif', link: 'https://aneles-react-todo-list.netlify.app/', github: 'https://github.com/KingAJ19/React-Todo-List' },
-        { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './punch.gif', link: 'https://punching-bag-game.herokuapp.com', github: 'https://github.com/KingAJ19/VueJS-PunchingBag'}
+        { name: 'Punching Bag', description: 'A simple punch bag game using VueJS', avatar: './punch.gif', link: 'https://punching-bag-game.herokuapp.com', github: 'https://github.com/KingAJ19/VueJS-PunchingBag'},
+        { name: 'Netflix Clone', description: 'A Netflix UI clone made with HTML & CSS', avatar: './netflix.gif', link: 'https://anele-netflix-clone.netlify.app', github: 'https://github.com/KingAJ19/Netflix-Clone'}
         
       ]
     }
